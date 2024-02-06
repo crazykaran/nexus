@@ -1,0 +1,18 @@
+/* components/error/Error.css */
+.error-message {
+    background-color: rgb(241, 59, 59);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .error-message.visible {
+    opacity: 1;
+  }
+  
+  .error-message.hidden {
+    display: none;
+  }
+  

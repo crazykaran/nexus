@@ -1,0 +1,15 @@
+.feed{
+    flex:5.5
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+.noitems{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(79, 72, 82);
+    font-size: 25px;
+}
